@@ -11,10 +11,14 @@ package com.mycompany.myfancyjavaproject;
 public class Test_class {
     String name;
     int id;
+    int age;
+    String occ;
     Test_class(String name, int id)
     {
         this.name = name;
         this.id = id;
+        this.age = age;
+        this.occ = occ;
     }
 
 public static void main() {
